@@ -1,0 +1,82 @@
+/* proyectos web - landing_page_responsive/style.css */
+
+/* Estilos generales para la página de aterrizaje responsive */
+* {
+    background-color: #333;
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+/* Titulo, Subtitulo y enlaces de navegación */
+.titulo {
+    font-size: 3em;
+    font-style: italic;
+    color: rgb(0, 0, 255);
+}
+
+.subtitulo {
+    font-size: 2em;
+    font-style: italic;
+    color: rgb(0, 0, 255);
+}
+
+.nav_link {
+    color: rgb(255, 38, 38);
+    text-decoration: underline;
+}
+
+/*Logo, Listas y Parrafos*/
+.logo {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 1em;
+}
+
+.torneos-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.jugadores-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.torneo-tipo {
+    color: rgb(4, 248, 166);
+    font-size: 1.5em;
+}
+
+.jugadores-tipo {
+    color: rgb(4, 248, 166);
+    font-size: 1.5em;
+}
+
+.parrafo {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.parrafo-jugadores {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin: 1em;
+    padding: 0.5em;
+}
+/* Estilos para la sección de importancia y Barra moviles*/
+
+.importancia {
+    color: rgb(255, 215, 0);
+    font-style: italic;
+}
+
+.mobile-nav {
+    display: none;
+}
